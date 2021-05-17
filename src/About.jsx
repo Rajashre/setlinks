@@ -1,6 +1,8 @@
 import React from "react";
 
-const About = () =>{
-    return<h1>hiii this is about page </h1>
+// import { useEffect }from "react";
+const About = (props) =>{
+
+    return<h1>Hello I am{props.Name} About page </h1>;
 };
 export default About;
